@@ -1,4 +1,4 @@
-package com.hawkins.Questions;
+package com.hawkins.Questions.Easy;
 
 public class CapitaliseWords {
 

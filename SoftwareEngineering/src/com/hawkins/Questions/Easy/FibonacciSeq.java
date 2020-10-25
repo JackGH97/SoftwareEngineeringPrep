@@ -1,4 +1,4 @@
-package com.hawkins.Questions;
+package com.hawkins.Questions.Easy;
 
 public class FibonacciSeq {
 
@@ -19,6 +19,7 @@ public class FibonacciSeq {
     }
 
     public static Long fibonacci(Long n1, Long n2,int count){
+        String test = "12";
         Long n3 = n1 + n2;
         count++;
         System.out.println(n3);
