@@ -23,8 +23,6 @@ public class ShellShort {
                 int newElement = array[i];
                 int j = i;
                 while (j >= gap && array[j-gap] > newElement){
-                    System.out.println(array[j-gap]);
-                    System.out.println(array[j]);
                     array[j] = array[j-gap];
                     j -= gap;
                 }

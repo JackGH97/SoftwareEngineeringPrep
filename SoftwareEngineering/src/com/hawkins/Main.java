@@ -4,6 +4,7 @@ import com.hawkins.Questions.Medium.MagicSquare;
 
 import java.util.Collections;
 import java.util.Hashtable;
+import java.util.List;
 
 /*
 Area to test methods :))
@@ -15,6 +16,7 @@ public class Main {
 
 
         int[] aseaesw = new int[]{1,4,5,8,10,14,15};
+
         System.out.println(binarySearch(aseaesw,15));
     }
 
