@@ -18,6 +18,7 @@ public class BinarySearch {
             }
             else {
                 end = midpoint;
+                System.out.println();
             }
         }
         return -1;
