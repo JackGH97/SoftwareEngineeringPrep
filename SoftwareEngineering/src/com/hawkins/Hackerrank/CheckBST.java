@@ -22,4 +22,5 @@ public class CheckBST {
                 checkBST(node.left, min, node.data) &&
                 checkBST(node.right, node.data, max);
     }
+
 }
