@@ -1,9 +1,6 @@
 package com.hawkins.AlgoExpert.Medium;
 
-import com.hawkins.LinkedList;
-
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class MinMaxStack {
