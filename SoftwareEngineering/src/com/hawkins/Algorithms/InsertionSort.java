@@ -13,27 +13,21 @@ public class InsertionSort {
     • newElement = would equal 35 which was want to insert into the sorted partion.
      */
     public static int[] insertionSort(int[] array) {
-        recursion(array, array.length);
-        return array;
-    }
+        int n = array.length;
+        for (int i = 1; i < n; ++i) {
+            int key = array[i];
+            int j = i - 1;
 
-    public static void recursion(int[] array, int numberOfItems) {
-        if (numberOfItems < 2) {
-            return;
+            /* Move elements of arr[0..i-1], that are
+               greater than key, to one position ahead
+               of their current position */
+            while (j >= 0 && array[j] > key) {
+                array[j + 1] = array[j];
+                j = j - 1;
+            }
+            array[j + 1] = key;
         }
-        recursion(array, numberOfItems - 1);
-        int newElement = array[numberOfItems - 1];
-        int i;
-        for (i = numberOfItems - 1; i > 0 && array[i - 1] > newElement; i--) {
-            array[i] = array[i - 1];
-        }
-        array[i] = newElement;
-        for (int j = 0; j < array.length; j++) {
-            System.out.print(array[j]);
-            System.out.print(", ");
-        }
-        System.out.println("");
-        System.out.println("-----------------------------------------------------");
+        return array;
     }
 
 }
