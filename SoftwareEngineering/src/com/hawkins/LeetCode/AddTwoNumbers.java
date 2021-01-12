@@ -2,6 +2,10 @@ package com.hawkins.LeetCode;
 
 public class AddTwoNumbers {
 
+
+    public static void main(String[] args) {
+        System.out.println(10/10);
+    }
     public class ListNode {
     int val;
     ListNode next;
@@ -10,34 +14,27 @@ public class AddTwoNumbers {
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        if(l1.val == 0 || l2.val == 0){
-            return new ListNode();
+        ListNode head = null;
+        ListNode current = null;
+        ListNode a = l1;
+        ListNode b = l2;
+        int carry = 0;
+        while(a != null || b != null || carry != 0) {
+            int sum = carry;
+            sum += a != null ? a.val : 0;
+            sum += b != null ? b.val : 0;
+            carry = sum / 10;
+            if (head == null) {
+                head = new ListNode(sum % 10);
+                current = head;
+            } else {
+                current.next = new ListNode(sum % 10);
+                current = current.next;
+            }
+            a = a != null? a.next: null;
+            b = b != null? b.next: null;
         }
-
-        StringBuilder oneV = new StringBuilder();
-        while(l1 != null){
-            oneV.append(l1.val);
-            l1 = l1.next;
-        }
-
-        StringBuilder twoV = new StringBuilder();
-        while(l2 != null){
-            twoV.append(l2.val);
-            l2 = l2.next;
-        }
-
-
-        int total = Integer.parseInt(twoV.toString()) + Integer.parseInt(oneV.toString());
-        String strNum = "" + total;
-        char[] charArray = strNum.toCharArray();
-        ListNode l3 = new ListNode(charArray[charArray.length-1] - '0');
-
-        for (int i = charArray.length-2; i > 0 ; i--) {
-            l3.next = new ListNode(charArray[i]);
-            l3 = l3.next;
-        }
-
-        return l3;
+        return head;
 
     }
 }
