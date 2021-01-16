@@ -6,6 +6,7 @@ import java.util.Stack;
 
 public class DecodeString {
 
+
     ///3[a2[c]] = accaccacc
     public String decodeString(String s) {
         Stack<Character> stack = new Stack<>();
