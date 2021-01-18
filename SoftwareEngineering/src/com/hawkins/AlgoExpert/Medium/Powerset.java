@@ -1,11 +1,14 @@
 package com.hawkins.AlgoExpert.Medium;
 
+import org.w3c.dom.Node;
+
 import java.util.*;
 
 public class Powerset {
 
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<Integer>(Arrays.asList(1,2,3));
+        Queue<Node> queue = new LinkedList<>();
 
         ArrayList<Integer> list1 = new ArrayList<Integer>();
         System.out.println(powerset(list));
