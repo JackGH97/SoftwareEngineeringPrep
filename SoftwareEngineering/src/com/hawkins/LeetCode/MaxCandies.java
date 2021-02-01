@@ -1,15 +1,16 @@
 package com.hawkins.LeetCode;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
+import java.util.stream.IntStream;
 
 public class MaxCandies {
 
     public static void main(String[] args) {
         int[] test = new int[] {1,2,6};
         System.out.println(kidsWithCandies(test,4));
+        Arrays.fill(test,1);
+        OptionalInt max = Arrays.stream(test).max();
+        
     }
 
     public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
