@@ -1,15 +1,2 @@
 # SoftwareEngineeringPrep
-Collection of everything relevant to software engineering. Study sheets, implementations, questions etc...
-Study Sheets include:  
-  Algorithms  
-  Data Structures  
-  OOP Methodologies  
-  More  
-Implmentations  
-  Each Algorithm  
-  OOP Approaches  
-Questions  
-  Hackerrank  
-  LeetCode  
-  AlgoExpert..  
-  More  
+This Repository contains all the questions/work I did in terms of coding that landed me a job in software engineering. Alongside this I developed some indepth Notes that help with the process. If you would like these notes then feel free to message/email me and I will send them to you!
