@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbstractClassChallenge/AbstractClassChallenge.iml" filepath="$PROJECT_DIR$/AbstractClassChallenge/AbstractClassChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Adventure/Adventure.iml" filepath="$PROJECT_DIR$/Adventure/Adventure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayBigOh/ArrayBigOh.iml" filepath="$PROJECT_DIR$/ArrayBigOh/ArrayBigOh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArraylistChallenge/ArraylistChallenge.iml" filepath="$PROJECT_DIR$/ArraylistChallenge/ArraylistChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes/Classes.iml" filepath="$PROJECT_DIR$/Classes/Classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodingExercises/CodingExercises.iml" filepath="$PROJECT_DIR$/CodingExercises/CodingExercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionChallengeComplete/CollectionChallengeComplete.iml" filepath="$PROJECT_DIR$/CollectionChallengeComplete/CollectionChallengeComplete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionOfQuestions/CollectionOfQuestions.iml" filepath="$PROJECT_DIR$/CollectionOfQuestions/CollectionOfQuestions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionOverview/CollectionOverview.iml" filepath="$PROJECT_DIR$/CollectionOverview/CollectionOverview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionsChallenge/CollectionsChallenge.iml" filepath="$PROJECT_DIR$/CollectionsChallenge/CollectionsChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Composition/Composition.iml" filepath="$PROJECT_DIR$/Composition/Composition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/Encapsulation.iml" filepath="$PROJECT_DIR$/Encapsulation/Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exceptions/Exceptions.iml" filepath="$PROJECT_DIR$/Exceptions/Exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercises/Exercises.iml" filepath="$PROJECT_DIR$/Exercises/Exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FloatingPointChallenge/FloatingPointChallenge.iml" filepath="$PROJECT_DIR$/FloatingPointChallenge/FloatingPointChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashSet/HashSet.iml" filepath="$PROJECT_DIR$/HashSet/HashSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorldFX/HelloWorldFX.iml" filepath="$PROJECT_DIR$/HelloWorldFX/HelloWorldFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InheritanceCodingChallenge/InheritanceCodingChallenge.iml" filepath="$PROJECT_DIR$/InheritanceCodingChallenge/InheritanceCodingChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InnerClasses/InnerClasses.iml" filepath="$PROJECT_DIR$/InnerClasses/InnerClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InputOuputModification/InputOuputModification.iml" filepath="$PROJECT_DIR$/InputOuputModification/InputOuputModification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfaceChallenge/InterfaceChallenge.iml" filepath="$PROJECT_DIR$/InterfaceChallenge/InterfaceChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterviewPrep/InterviewPrep.iml" filepath="$PROJECT_DIR$/InterviewPrep/InterviewPrep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KeyWordsExpressions/KeyWordsExpressions.iml" filepath="$PROJECT_DIR$/KeyWordsExpressions/KeyWordsExpressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Layouts/Layouts.iml" filepath="$PROJECT_DIR$/Layouts/Layouts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedListChallenge/LinkedListChallenge.iml" filepath="$PROJECT_DIR$/LinkedListChallenge/LinkedListChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MethodChallenge/MethodChallenge.iml" filepath="$PROJECT_DIR$/MethodChallenge/MethodChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MobilePhone/MobilePhone.iml" filepath="$PROJECT_DIR$/MobilePhone/MobilePhone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/OOPDesigns.iml" filepath="$PROJECT_DIR$/.idea/OOPDesigns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OperatorChallenge/OperatorChallenge.iml" filepath="$PROJECT_DIR$/OperatorChallenge/OperatorChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReadingUserInput/ReadingUserInput.iml" filepath="$PROJECT_DIR$/ReadingUserInput/ReadingUserInput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleBankingApplication/SimpleBankingApplication.iml" filepath="$PROJECT_DIR$/SimpleBankingApplication/SimpleBankingApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SoftwareEngineering/SoftwareEngineering.iml" filepath="$PROJECT_DIR$/SoftwareEngineering/SoftwareEngineering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SolidPrinciples/SolidPrinciples.iml" filepath="$PROJECT_DIR$/SolidPrinciples/SolidPrinciples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortAlgorithms/SortAlgorithms.iml" filepath="$PROJECT_DIR$/SortAlgorithms/SortAlgorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortedCollections/SortedCollections.iml" filepath="$PROJECT_DIR$/SortedCollections/SortedCollections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Switch/Switch.iml" filepath="$PROJECT_DIR$/Switch/Switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TryResourceChallenge/TryResourceChallenge.iml" filepath="$PROJECT_DIR$/TryResourceChallenge/TryResourceChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopMasterChallenge/oopMasterChallenge.iml" filepath="$PROJECT_DIR$/oopMasterChallenge/oopMasterChallenge.iml" />
+    </modules>
+  </component>
+</project>

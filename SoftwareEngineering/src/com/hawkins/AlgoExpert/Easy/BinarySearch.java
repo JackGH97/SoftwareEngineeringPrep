@@ -4,7 +4,8 @@ public class BinarySearch {
 
     // Best: O(log(n)) time | O(log(n)) space
     public static int binarySearch(int[] array, int target) {
-        return binarySearchHelper(array,target,0,array.length);
+        return binarySearchHelper(array,target,0,array.length) != 0 ? binarySearchHelper(array,target,0,array.length) : 0;
+        // if it does != 0 then return this else 0.
     }
 
     public static int binarySearchHelper(int[] array, int target, int start, int end) {
